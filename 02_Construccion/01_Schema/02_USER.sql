@@ -1,11 +1,13 @@
-REM USUARIO DEL APLICATIVO FS_SGC_US
+REM USUARIO DEL APLICATIVO OWNK_US
 
-drop user FS_SGC_US cascade;
+alter session set "_ORACLE_SCRIPT"=true;
 
-Create user FS_SGC_US
- Identified by fs_sgc_us
- Default tablespace TS_DSGC
- Temporary tablespace TS_TSGC    
+drop user OWNK_US cascade;
+
+Create user OWNK_US
+ Identified by OWNK_US
+ Default tablespace TS_DOWNK
+ Temporary tablespace TS_TOWNK    
  account unlock;
 
 
@@ -17,4 +19,4 @@ Grant
   CREATE TRIGGER, CREATE USER , CREATE VIEW, CREATE TYPE,
   DROP PUBLIC SYNONYM, EXECUTE ANY PROCEDURE, 
   SELECT ANY SEQUENCE, SELECT ANY TABLE, 
-  UNLIMITED TABLESPACE to FS_SGC_US;
+  UNLIMITED TABLESPACE to OWNK_US;
