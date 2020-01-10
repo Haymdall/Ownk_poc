@@ -4,5 +4,5 @@ PROMPT LANZADOR PRINCIPAL
 PROMPT
 --
 
-@@02_Tablas\INSTALL_TABLES.sql
-@@03_Foreing_Key\INSTALL_KEYS.sql
+@@02_Tablas/INSTALL_TABLES.sql
+@@03_Foreing_Key/INSTALL_KEYS.sql
