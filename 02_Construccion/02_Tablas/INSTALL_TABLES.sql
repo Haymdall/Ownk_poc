@@ -4,3 +4,4 @@ PROMPT
 
 @@GE_TUSER.sql;
 @@GE_TESTA.sql;
+@@GE_TRGLA.sql;
