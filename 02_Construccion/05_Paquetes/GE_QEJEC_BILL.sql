@@ -30,7 +30,7 @@ BEGIN
 
     for i in C_DATOS loop
         V_REGLA := i.rgla_plsql;
-        V_SQL :=  'DECLARE V_username varchar2 BEGIN v_username := ' || V_REGLA || '('||i.user_name||'); END;' || CHR(10);  
+        V_SQL :=  'DECLARE BEGIN ' || V_REGLA || '('''||i.user_name||'''); END;' || CHR(10);  
         dbms_output.put_line(i.user_user||'regla '||i.rgla_plsql);
     end loop;
     
