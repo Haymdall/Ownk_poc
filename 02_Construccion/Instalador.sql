@@ -5,4 +5,4 @@ PROMPT
 --
 
 @@02_Tablas\INSTALL_TABLES.sql
-@@03_Foreing Key\INSTALL_KEYS.sql
+@@03_Foreing_Key\INSTALL_KEYS.sql
